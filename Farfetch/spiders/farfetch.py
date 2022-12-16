@@ -8,7 +8,7 @@ from scrapy import Request
 
 class FarfetchSpider(scrapy.Spider):
     name = 'farfetch'
-    zyte_key = '07a4b6f903574c1d8b088b55ff0265fc'  # Todo : YOUR API KEY FROM ZYTE
+    zyte_key = ''  # Todo : YOUR API KEY FROM ZYTE
     HTTPERROR_ALLOWED_CODES = [404, 503, 204]
 
     custom_settings = {
